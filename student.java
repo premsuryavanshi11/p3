@@ -34,7 +34,7 @@ class student {
     }
 
     public static void main(String[] args) {
-        student student = new Student("John Doe", "Computer Science", 3);
+        student student = new student("John Doe", "Computer Science", 3);
         student.registerCourse("Mathematics", 75);
         student.registerCourse("Physics", 35);
         student.registerCourse("Chemistry", 90);
